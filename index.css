@@ -1,5 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 html, body {
     margin: 0;
     padding: 0;
+    background-color: #fff;
+}
+/* =======================  0  ======================*/
+.container {
+    width: 375px;
+    margin: 0 auto;
 }
 
+.header {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-bottom: 1px solid #C6C6C6
+}
+
+header .profile-image {
+    margin-right: 10px;
+}
+
+.profile-image {
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: inline;
+}
+
+.app-logo {
+    width: 127px;
+    padding-left: 10px;
+    object-fit: cover;
+}
+/* =======================  1  ======================*/
+.posts-account-information {
+    background-color: #fff;
+    padding: 10px 10px; 
+    display: flex;
+    align-items: center;
+}
+
+.account-information {
+    padding: 6px;
+    align-items: center;
+}
+
+.account-name {
+    padding-bottom: 1px;
+}
+
+h3 {
+    font-size: 13px;
+    margin: 0;
+    font-family: 'open sans';
+    font-weight: 700;
+}
+
+p {
+    font-size: 12px;
+    margin: 0;
+    font-family: 'open sans';
+}
+
+.posts-location {
+    padding-top: 1px;
+}
+/* =======================  1.1  ======================*/
+.the-post{
+    max-width: 100%;
+}
+/* =======================  1.1  ======================*/
+.icon-img {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    padding-right: 8px
+}
+
+.icon-img:hover {
+    opacity: 50%;
+}
+
+.user-interactive-options {
+    background-color: #fff;
+    padding: 15px 10px;
+}
+
+.user-name {
+    font-weight: 700;
+}
+
+.user-interactive-options h3,
+.user-interactive-options p {
+    padding: 5px 0;
+}
